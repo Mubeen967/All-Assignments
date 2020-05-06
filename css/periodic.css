@@ -1,0 +1,41 @@
+.btn{
+    background-color:gray;
+    top: 250%;
+    right: 50%;
+    display: inline-block;
+    border-radius: 20px;
+    border: none;
+    font-size: large; 
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 50px;
+}
+@media only screen and (max-width: 550px){
+    .btn{
+        display: block;
+        margin: 5px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .btn{
+        display: block;
+        margin: 10px;
+    }
+}
+.font-color{
+    color: white;
+    text-decoration: none;
+}
+div{
+    margin-left: 170px;
+       display: inline; 
+}
+.btn:hover{
+    background-color: indigo;   
+}
+.cen{
+    margin-left: 500px;
+    display: inline; 
+}
+
+    
