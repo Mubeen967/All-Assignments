@@ -1,0 +1,102 @@
+.card{
+    width: 260px;
+    height: 400px;
+    margin-top: 10px;
+   
+  
+}
+
+@media only screen and  ( max-width : 570px )
+{
+    .card{
+       margin-left: 80px;
+       width: 300px;
+      
+    }
+}
+/* @media only screen and  ( max-width : 900px )
+{
+    .card{
+       margin-left: 50px;
+       width: 200px;
+      
+    }
+} */
+.product-heading{
+width: 40%;
+margin:100px 0px 20px 300px;
+
+background-color:  #80CBC4 ;
+padding: 5px;
+color: green;
+/* text-decoration: green; */
+/* border: 1px solid black; */
+/* text-shadow: 2px 1px 1px grey; 
+
+border-left: 20px solid white;
+border-top: 20px solid transparent;
+border-bottom: 20px solid transparent;
+border-right: 20px solid white; */
+transform: skew(10deg);
+box-shadow: 0px 5px 2px green;
+}
+@media only screen and  ( max-width : 759px )
+{
+    .product-heading{
+        width: 60%;
+        padding: 10px 0px 20px 0px;
+        height: 50px;
+        font-size: x-large;
+        color: green;
+        background-color:  #80CBC4 ;
+        margin: 220px 10px 0px 80px;
+    }
+}
+.p-images{
+    height: 60%;
+}
+.card-body{
+    background-color: #BBDEFB;
+    
+}
+.deleivery{
+    display: inline;
+    margin-left: 2px;
+}
+.quantity{
+    font-size: 14px;
+    color: grey;
+    margin-left: 5px;
+}
+.card-button{
+    color: white !important;
+    border-radius: 10px;
+    background-color: darkblue;
+    padding: 5px;
+    text-decoration: none !important;
+    /* float:right; */
+    margin: 0px 0px 0px 60px;
+    /* display: inline; */
+}
+.fa-truck{
+    color:grey;
+}
+.price {
+    /* text-shadow: 2px 2px 1px black; */
+    font-weight: bold;
+    /* margin-left: ; */
+  
+}
+.news-marquee{
+    
+    background-color: #80CBC4;
+    /* height: 20px; */
+    margin: 8px 80px;
+    padding: 5px;
+    color: #000;
+    font-weight: 500;
+    
+    
+}
+
+   

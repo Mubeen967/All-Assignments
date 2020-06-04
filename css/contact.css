@@ -1,0 +1,131 @@
+
+.p-name > input{
+    width: 250px;
+}
+td{
+    text-decoration: black;
+    font-style: italic;
+   
+}
+@media only screen and ( max-width : 350px){
+    .p-name > input{
+        width: 200px;
+    }
+    textarea{
+      width: 200px;
+    }
+
+}
+.btn{
+    
+    color: lightgrey;
+    background-color: cadetblue
+}
+.btn:hover{
+    color:white;
+    background-color: darkcyan;
+}
+.w3-animate-top{
+    color: beige;
+    font-size: 30px;
+}
+.thank-btn {
+    
+        background-color: darkcyan;
+        /* top: 250%; */
+        /* right: 50%; */
+        display: inline-block;
+        text-decoration: none ; 
+        font-size: medium;
+        border-radius: 10px ;
+        border: none;
+        /* text-align: center; */
+        cursor: pointer;
+        padding: 10px 20px;
+        width: auto;
+      
+}
+
+.thank-btn > a{
+    text-decoration: none;
+    color: beige;
+    
+}
+.thank-btn:hover {
+    animation-name: button-animation;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+  
+    
+}
+@keyframes button-animation{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: maroon;
+    }
+   
+
+}
+.order-heading{
+    color:white;
+    font-weight: 800px;
+    text-shadow: 1px 1px 3px grey;
+    font-style: italic;
+    /* border: 10px solid yellow; */
+    /* background-color: grey; */
+    padding: 0px 10px;
+    /* border: 1px 1px 3px white; */
+    border: 3px solid darkcyan;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/background.jpg);
+    background-size: cover;
+
+}.contact-box{
+    width: 50%;
+    position: relative;
+    /* top:  10%; */
+    left: 30%;
+    margin: 50px 0px 50px 0px;
+    padding: 20px;
+    
+}
+.contact-box > h5{
+    font-size: 25px;
+    border-bottom: 3px solid darkcyan;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+}
+@media only screen and ( max-width : 570px){
+    .contact-box {
+        /* margin-left: 50px !important; */
+        /* width: 100%; */
+    /* text-shadow: 2px 2px 2px maroon;
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 20px; */
+    width: 80%;
+    position: relative;
+    /* top:  10%; */
+    left: 5%;
+    /* right: 5%; */
+    margin-top: 150px ;
+    /* padding: 20px; */
+
+    }
+    textarea{
+        width: 70%;
+    }
+
+ }
+ @media only screen and ( min-width : 573px){
+     textarea{
+         width: 80%;
+     }
+ }
