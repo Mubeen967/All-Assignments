@@ -7,10 +7,14 @@
 
 }
 .main-heading{
+    /* margin-top: 20px; */
     margin-left: 120px;
     font-weight: bold;
     text-shadow: 2px 2px 2px maroon;
 }
+/* .main-heading > h2{
+    margin-left: 30px;
+} */
 @media only screen and ( max-width : 570px){
     .main-heading > h2{
         /* margin-left: 50px !important; */
@@ -19,6 +23,8 @@
     font-weight: bold;
     font-size: x-large;
     margin-right: 20px;
+     margin-top: 20px; 
+
 
 
     }
