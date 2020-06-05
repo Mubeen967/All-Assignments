@@ -3,13 +3,14 @@
     font-weight:bold;
     font-size: 18px;
     font-family: sans-serif;
+    padding: 0px;
     
 
 }
 .main-heading{
     /* margin-top: 20px; */
-    margin-left: 120px;
-    font-weight: bold;
+    margin-left: 100px;
+    /* font-weight: bold; */
     text-shadow: 2px 2px 2px maroon;
 }
 /* .main-heading > h2{
@@ -21,14 +22,30 @@
         /* width: 100%; */
     text-shadow: 2px 2px 2px maroon;
     font-weight: bold;
-    font-size: x-large;
-    margin-right: 20px;
-     margin-top: 20px; 
-
-
-
+    font-size: large;
+    margin-left: 0px !important;
+    margin-right: 0px;
+    
+     /* margin-top: 20px; */
+     text-align: left; 
     }
+    .main-heading{
+        margin: 10px;
+        /* margin-top: 10px; */
+    }
+    .i-image{
+        width: 20%;
+  
+    }
+    .main-icon{
+        text-align: center;
+    }
+    /* .start{
+        margin-bottom: 200px !important;
+    } */
+
  }
+
  @media only screen and ( max-width : 570px){
     .about-snack > p{
         /* margin-left: 50px !important; */
@@ -63,7 +80,7 @@ background-image: url();
 
 .nav-list>a>.fa-cart-arrow-down{
     font-size: 30px;
-    color: black
+    color: black;
 }
 .image-slider{
     width: 100% !important;
@@ -145,7 +162,7 @@ background-image: url();
 	border-bottom: 50px solid #80CBC4;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
-	height:auto;
+	/* height:auto; */
     width:auto;
     text-shadow: 2px 1px 1px grey; 
     box-shadow: 0px 5px 2px black;
@@ -199,9 +216,9 @@ background-image: url();
 {
     .place-heading{
         width: 80%;
-        padding: 0px 0px 20px 20px;
-        height: 50px;
-        font-size: x-large;
+        padding: 0px 5px 20px 10px;
+        height: 70px;
+        font-size: medium;
         color: green;
         background-color:  #80CBC4;
         margin: 15px 50px 0px 50px;
@@ -381,6 +398,7 @@ background-image: url();
     bottom: 20px;
     right: 50px; 
     border-radius: 10px;
+    z-index: 1;
     
 }
 
@@ -396,3 +414,6 @@ background-image: url();
 }
 
  
+html{
+    scroll-behavior: smooth;
+}
